@@ -84,10 +84,11 @@ public class Main {
                         pessoa[i] = pessoa[i+1];
                     }
 
-                    //continuar pessoa[id-1] ;
+                    pessoa[id-1] = null;
+                    
+                    id = id - 1;
 
-
-                    System.out.println("Usuário excluído com sucesso (eu acho)");
+                    System.out.println("Usuário excluído com sucesso");
 
                     break;
 
@@ -96,7 +97,7 @@ public class Main {
                     break;
 
                 default:
-                System.out.println("Isso não é uma opção, cuzão");
+                System.out.println("Isso não é uma opção, tente denovo");
             }
 
         }
@@ -106,4 +107,4 @@ public class Main {
     }
 }
 
-    
+ 
