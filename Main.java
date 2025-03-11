@@ -20,13 +20,13 @@ public class Main {
                     System.out.println("Quantidade máxima de usuários cadastrados atingida (eu só não sei criar array infinito em java)");
                 }else{
                     System.out.println("Digite o nome da pessoa: ");
-                    String nome = scanner.nextLine();
+                    String nome = scanner.next();
 
                     System.out.println("Digite a idade da pessoa: ");
                     int idade = scanner.nextInt();
 
                     System.out.println("Digite o email da pessoa: ");
-                    String email = scanner.nextLine();
+                    String email = scanner.next();
                     
                     id = id + 1;
 
@@ -45,13 +45,13 @@ public class Main {
                     escolha = scanner.nextInt();
 
                     System.out.println("Digite o nome da pessoa: ");
-                    String nome = scanner.nextLine();
+                    String nome = scanner.next();
 
                     System.out.println("Digite a idade da pessoa: ");
                     int idade = scanner.nextInt();
 
                     System.out.println("Digite o email da pessoa: ");
-                    String email = scanner.nextLine();
+                    String email = scanner.next();
 
                     pessoa[escolha-1] = new pessoa(nome, idade, email);
                     break;
@@ -88,7 +88,7 @@ public class Main {
                     
                     id = id - 1;
 
-                    System.out.println("Usuário excluído com sucesso");
+                    System.out.println("Usuário excluído com sucesso (eu acho)");
 
                     break;
 
@@ -97,7 +97,7 @@ public class Main {
                     break;
 
                 default:
-                System.out.println("Isso não é uma opção, tente denovo");
+                System.out.println("Isso não é uma opção, cuzão");
             }
 
         }
@@ -107,4 +107,4 @@ public class Main {
     }
 }
 
- 
+    
